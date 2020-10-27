@@ -1,1 +1,1 @@
-GET https://safe-garden-83694.herokuapp.com/api/notes
+GET http://localhost:3001/api/notes
