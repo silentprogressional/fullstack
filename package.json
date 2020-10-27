@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "deploy": "git push heroku master",
-    "deploy:full": "got add. && git commit -m uibuild && npm run deploy",
+    "deploy:full": "git add. && git commit -m uibuild && npm run deploy",
     "logs:prod": "heroku logs --tail",
     "start": "node index.js",
     "dev": "nodemon index.js",
