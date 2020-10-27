@@ -45,7 +45,10 @@ app.get("/api/notes/:id", (request, response, next) => {
         response.status(404).end();
       }
     })
-    .catch((error) => next(error));
+    .catch((error) => {
+      console.log(error);
+      response.status(400).send({ error: "malformed id" });
+    });
 });
 
 app.delete("/api/notes/:id", (request, response) => {
