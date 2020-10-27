@@ -1,7 +1,7 @@
-POST http://localhost:3001/api/notes
+POST https://safe-garden-83694.herokuapp.com/api/notes
 Content-Type: application/json
 
 {
-    "content": "VS code is the shit!",
+    "content": "Bitchhhhhh",
     "important": false
 }
